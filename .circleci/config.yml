@@ -22,4 +22,4 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            pytest -v --cov=calculator
+            python test_calculator.py
